@@ -1,0 +1,2 @@
+slave1 ansible_host=172.31.36.248
+slave2 ansible_host=172.31.47.61
