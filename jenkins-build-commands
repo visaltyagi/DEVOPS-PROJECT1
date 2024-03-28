@@ -1,2 +1,3 @@
+sudo docker rm -f $(sudo docker ps -a -q)
 sudo  docker build . -t finalrelease
 sudo docker run -itd -p 80:80 finalrelease
