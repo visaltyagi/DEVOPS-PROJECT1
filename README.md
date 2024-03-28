@@ -28,15 +28,6 @@ A. Create Three Instances as Master, Slave1 & Slave2.
 
 B. Install “Ansible” Over Master Machine using “install.sh” file
 
-Paste these commands in “install.sh” file.
-
-sudo apt update
-
-sudo apt install software-properties-common
-
-sudo add-apt-repository --yes --update ppa:ansible/ansible
-
-sudo apt install ansible -y
 
 C. Run the “install.sh” file using the command: bash install.sh
  
@@ -46,11 +37,6 @@ D. Create the keys to “Master” instance & Paste to “Slave1” & “Slave2�
 
 E. Put the “Slave IP’s” into the “Ansible Host File”
 
-Paste these commands in host file:
-
-slave1 ansible_host=172.31.36.248
-
-slave2 ansible_host=172.31.47.61
  
 F. Run this ansible command to ping the machines: ansible -m ping all.
 Type “Yes” & your “slaves” will be successfully pinged.
@@ -87,16 +73,6 @@ P. Clone the Given Repository Over “Master” Node
 Q. Create a Webhook for Trigger the Jobs
 
 R. Create a Dockerfile & Push it into “Master” Branch
-
-FROM ubuntu
-
-RUN apt-get update
-
-RUN apt-get install apache2 -y
-
-ADD  . /var/www/html
-
-ENTRYPOINT apachectl -D FOREGROUND
  
 S. Create a “Test” Job 
  
