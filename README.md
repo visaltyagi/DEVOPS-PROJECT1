@@ -1,4 +1,4 @@
-# project1
+![image](https://github.com/visaltyagi/project1/assets/107295081/ed995de8-ca71-4b87-918f-c26b307ad768)# project1
 Devops Capstone Project 1
 
 Project – Capstone I
@@ -28,40 +28,70 @@ In this project, we need to install the “Java”, “Jenkins”, “Ansible”
 We don’t need to create a third job as “build” here. Only “test” & “prod” will do the jobs.
 
 A. Create the Three Instances Named as Master, Slave1 & Slave2.
-![github3 (1)](https://github.com/visaltyagi/project1/assets/107295081/b0ef64a0-ca01-49ec-8b47-6de6292ca98d)
 
 Step 1: Go to “AWS Console > EC2”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/8435ec20-ec77-40c2-9305-a900dab067b7)
+
  
 Step 2: Click on “Instances”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/2b3c4dbb-9d88-40a5-85a1-787523a7acc8)
+
  
 Step 3: Click on “Launch Instance”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/96f85eb9-6a50-4f01-90a0-0b5acb78c7a6)
+
  
 Step 4: Choose “Name” as “Master” in “Name and tags”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/9cf95108-36c9-4c8c-981c-7a9983878c64)
+
  
 Step 5: Choose “AMI” as “Ubuntu” with “Ubuntu Server 22.04 LTS (HVM), SSD Volume Type”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/1d26d686-071f-4fb6-924b-e26973d2f198)
+
  
 Step 6: Choose “Instance type” as “t2.medium” for “Master” machine.
+![image](https://github.com/visaltyagi/project1/assets/107295081/c147c320-c50a-4057-a990-ebe15017e6a3)
+
  
 Step 7: Choose “key pair (login)” as “Demo”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/1aca3b41-0b16-46d6-8317-0c0d76425658)
+
  
 Step 8: In “Network Settings”, choose “Select existing security group” as “launch-wizard-9”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/e0d5abb8-9d48-4350-824b-3f97e2731f9f)
+
  
 Step 9: Click on “Launch Instance”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/9dd54300-7518-4e5c-ae0e-8c0a3b10bb65)
+
  
 Step 10: Click on “Hyperlink”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/09b2068d-81fa-482e-ad97-c218ba42a52b)
+
  
 Step 11: Click on “Instances” in “Breadcrumb Section”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/67aae0e3-71be-453a-b525-81044e3c2d49)
+
  
 Step 12: “Master” will be in “Running” State. Again, click on “Launch Instances” to create the “Slaves” Machine on “t2.micro”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/ec6963b1-75d2-4916-82c7-312c96cdc175)
+
  
 Step 13: Choose “Name” as “Slave” in “Name and tags”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/46b10b92-060e-47be-8f8f-cdf1aa48eaaa)
+
  
 
 Step 14: Choose “AMI” as “Ubuntu” with “Ubuntu Server 22.04 LTS (HVM), SSD Volume Type”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/ca4c4bb9-2f83-45dd-ae53-e6bf8ad4cbea)
+
  
 Step 15: Choose “Instance type” as “t2.micro” for “Slave” machine.
- 
+![image](https://github.com/visaltyagi/project1/assets/107295081/03a9ea12-3d8c-4551-bd40-17325f898c60)
+
 Step 16: Choose “key pair (login)” as “Demo”.
+![image](https://github.com/visaltyagi/project1/assets/107295081/b8c35981-e85d-4404-bdd2-8d9a371f7862)
+
  
 Step 17: In “Network Settings”, choose “Select existing security group” as “launch-wizard-9”.
  
