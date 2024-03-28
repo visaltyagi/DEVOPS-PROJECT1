@@ -28,8 +28,11 @@ a. Create the Three Instances Named as Master, Slave1 & Slave2.
 b. Install “Ansible” Over Master Machine using “install.sh” file
 
 sudo apt update
+
 sudo apt install software-properties-common
+
 sudo add-apt-repository --yes --update ppa:ansible/ansible
+
 sudo apt install ansible -y
 
 Use these commands to install "Ansible" over "Master" Machine.
@@ -51,6 +54,7 @@ h. Fork the Given Repository over "GitHub account": https://github.com/hshar/web
 i. Clone the Given Repository Over “Master” Node: git clone https://github.com/hshar/website.git 
 
 j. Create a “Develop” Branch & Push it into “GitHub” Repository
+
   git branch
   git checkout develop
   git checkout master
