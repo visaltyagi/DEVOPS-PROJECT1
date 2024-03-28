@@ -27,13 +27,13 @@ a. Create the Three Instances Named as Master, Slave1 & Slave2.
 
 b. Install “Ansible” Over Master Machine using “install.sh” file
 
-sudo apt update
+**sudo apt update
 
 sudo apt install software-properties-common
 
 sudo add-apt-repository --yes --update ppa:ansible/ansible
 
-sudo apt install ansible -y
+sudo apt install ansible -y**
 
 Use these commands to install "Ansible" over "Master" Machine.
 
@@ -55,34 +55,52 @@ i. Clone the Given Repository Over “Master” Node: git clone https://github.c
 
 j. Create a “Develop” Branch & Push it into “GitHub” Repository
 
-  git branch
+ ** git branch
+  
   git checkout develop
+  
   git checkout master
-  git push --all  to push the commits
+  
+  git push --all  to push the commits**
 
 k. Create a Webhook for Trigger the Jobs
 
 l. Create a Dockerfile & Push it into “Master” Branch
-   FROM ubuntu
+   
+   **FROM ubuntu
+   
    RUN apt-get update
+   
    RUN apt-get install apache2 -y
+   
    ADD  . /var/www/html
-   ENTRYPOINT apachectl -D FOREGROUND
+   
+   ENTRYPOINT apachectl -D FOREGROUND**
    
    Push the dockerfile in "Github Repository".
+   
    git add .
+   
    git commit -m "commiting dockerfile"
+   
    git push --all
    
 m. Create a “Test” Job in "Jenkins"
+
 n. Create a “Prod” Job 
 
    Add build steps here: 
+   
+   **sudo docker rm -f $(sudo docker ps -a -q)
+   
    sudo  docker build . -t finalrelease
-   sudo docker run -itd -p 80:80 finalrelease
+   
+   sudo docker run -itd -p 80:80 finalrelease**
 
 o. Do change in index.html file in "Github repository".
+
 p. Create a build in "Prod" job.
+
 q. Paste the IP Address in browser & website has been successfully shown.
    
 
