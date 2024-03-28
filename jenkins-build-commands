@@ -1,0 +1,2 @@
+sudo  docker build . -t finalrelease
+sudo docker run -itd -p 80:80 finalrelease
