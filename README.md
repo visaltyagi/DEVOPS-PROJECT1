@@ -20,10 +20,16 @@ b. Job2: test
 c. Job3: prod
 
 # Project 1 Solution:
+
 Problem (1) Solution: Install the necessary software on the machines using a configuration management tool
+
 In this project, we need to install the “Java”, “Jenkins”, “Ansible”, “Docker” & “Python” on “Master” machine while install the “Java” & “Docker” on both the slaves. 
+
 We don’t need to create a third job as “build” here. Only “test” & “prod” will do the jobs.
+
 A. Create the Three Instances Named as Master, Slave1 & Slave2.
+![github3 (1)](https://github.com/visaltyagi/project1/assets/107295081/b0ef64a0-ca01-49ec-8b47-6de6292ca98d)
+
 Step 1: Go to “AWS Console > EC2”.
  
 Step 2: Click on “Instances”.
