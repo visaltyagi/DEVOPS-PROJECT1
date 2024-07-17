@@ -16,8 +16,6 @@ a. Job1: build
 b. Job2: test 
 c. Job3: prod
 
-For detailed solution, click on this link: https://medium.com/devops-guides/devops-capstone-project-implementing-a-devops-lifecycle-on-a-website-using-docker-jenkins-only-ab4d6ee908f2
-
 # Project 1 Solution:
 
 Problem (1) Solution: Install the necessary software on the machines using a configuration management tool
