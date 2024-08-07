@@ -22,8 +22,6 @@ c. Job3: prod
 
 Problem (1) Solution: Install the necessary software on the machines using a configuration management tool
 
-**For More information, check the Project 1 guide:** https://medium.com/devops-guides/devops-capstone-project-implementing-a-devops-lifecycle-on-a-website-using-docker-jenkins-only-ab4d6ee908f2
-
 In this project, we need to install the “Java”, “Jenkins”, “Ansible”, “Docker” & “Python” on “Master” machine while install the “Java” & “Docker” on both the slaves. 
 
 We don’t need to create a third job as “build” here. Only “test” & “prod” will do the jobs.
